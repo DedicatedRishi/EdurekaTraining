@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Demonstrating HTML forms</h2>
+    <h3>Login Form</h3>
+    <form action="">
+      <font color="red">  <label for="username" >UserName:</label>
+      <!-- </font> not work on buttons -->
+        <input type="text" name="username" id="username"  />
+        <label for="password" >Password</label> </font>         
+        <input type="password" name="password" id="password" required />
+            <!-- implementation of radio buttons -->
+            <h2>if i give same name then i can select only one radio buttonn among all and name can take anyfrom own but should be same for single select radio button</h2>
+
+            <label for="gender">Gender:-</label>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="Female" />
+            <h2> now if i take different name then i can select all the available radio buttons at a time</h2>
+            
+            <label for="gender">Gender:-</label>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="female">Female</label>
+            <input type="radio" name="genders" id="Female" />
+<h2>checkbox also are like radio button just type of button will change from "radio" to "checkbox" and main change in checkbox  is it can select all checkbox <b> even the name is same</b></h2>
+            <label for="location">Location:-</label>
+            <br />
+            <input type="checkbox" name="location" id="north" />
+            <label for="north">North India</label>
+            <input type="checkbox" name="location" id="south" required />
+            <label for="north">South India</label>
+            
+            <input type="checkbox" name="location" id="east" />
+            <label for="north">East India</label>
+            
+            <input type="checkbox" name="location" id="west" />
+            <label for="north">West India</label>
+       <h2>now we are going to learn select list it creates by using select tag:-</h2>
+       <!-- fieldset tag is used to creat box among  html elements and can give name by legend tag -->
+       <fieldset>
+            <legend>city Login</legend>    
+        <label for="city"> Current city</label>&nbsp 
+        <select name="city" id="city">
+            <option value="Amravati"> Amravati</option>
+            <option value="Agomani"> Agomani</option>
+            <option value="Anjangaon Surji"> Anjangaon Surji</option>
+            <option value="new york"> New York</option>
+            <option>Guwahati</option>    
+        </select>
+         <center><br>
+        <input type="button" value="Click Me" onclick="alert('Rishi you clicked me');" />
+          <input type="submit" value="Login" onclick="alert('Your entries are recorded');" />
+        <input type="reset" value=" Reset" onclick="alert('Rishi refreshed this page now enter the entries again');" />
+    </center>
+        </fieldset> 
+    </form>
+</body>
+</html>

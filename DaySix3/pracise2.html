@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=j, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: skyblue; height: 600px; width: 800px; margin-left: 270px; border-radius: 50px; border: 10px solid orange;">
+        <input type="text" name="text" id="text1" placeholder="First Name" style="margin-left: 250px;margin-top: 50px; font-size: 20px; text-align: center" />
+        <input type="text" name="text" id="text2" placeholder="Second Name" style="margin-left: 250px;margin-top: 50px; font-size: 20px; text-align: center" />
+        <br><button onclick="get()" style="margin-left: 340px; margin-top: 50px; font-size: 20px">Login</button>
+        <hr style="margin-top: 50px;" />
+    <br><br>       <span id="welcome" style="font-size: 50px; font-weight: 1000;margin-left:  280px;;"> </span>
+     <br>   <br><span id="print" style="font-size: 50px; font-weight: 1000;margin-left: 140px;  "></span>
+    </div>
+    <script>
+//js of innerHTML
+        function get(){
+            var value1= document.getElementById("text1").value;
+            var value2= document.getElementById("text2").value;
+            
+            document.getElementById("welcome").innerHTML="Welcome";
+            document.getElementById("print").innerHTML=`"Mr. ${value1} ${value2}"`;
+        }
+    </script>
+</body>
+</html>
