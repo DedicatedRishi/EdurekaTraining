@@ -1,0 +1,13 @@
+ https://mega.nz/folder/E1c0kRyL#d4L37n8wZM3QQW7VpCT2ZQ
+desktop view- https://xd.adobe.com/view/2409336a-0d1e-4f89-9b6c-1f9d1da0f2db-715a/specs/
+mobile view:-https://xd.adobe.com/view/2409336a-0d1e-4f89-9b6c-1f9d1da0f2db-715a/screen/1b8f61ef-6bba-4911-aacb-82fce83a5c4d/specs/
+Git hub geneated token(Rushi-Token):-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
+git hub commands :-
+git init
+git add .
+git commit -m "first commit"
+git branch -M main //here M should be capital only
+git remote add origin https://github.com/DedicatedRishi/Assignment1.git
+git push -u origin main
+
+to live the our page refresh 3 times after create custom domain
