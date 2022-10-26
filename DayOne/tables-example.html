@@ -10,30 +10,36 @@
     <h2>Demonstrating Html Tables Colspan</h2>
     <!-- the value of border is 1 means yes and 0 means no only -->
     <table border="1" cellpadding="10" cellspacing="0">
-    <tr>  
-        <th>Employee ID</th>
-        <th>Employee Name</th>
-        <th>Employee Salary</th>
-    </tr>
-    <tr>
-        <td>2001</td>
-        <td>Rushikesh</td>
-        <td>20000</td>
-    </tr>
-    <tr>
-        <td>2002</td>
-        <td>Ashwin</td>
-        <td rowspan="2">30000</td>
-    </tr>
-    <tr>
-        <td>2003</td>   
-        <td>Priyamdip</td>
-        
-    </tr>
-    <tr>
-        <th colspan="2">Grand Total</th>
-        <td>50000</td>
-    </tr>
+        <thead>
+            <tr>  
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>2001</td>
+                    <td>Rushikesh</td>
+                    <td>20000</td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>Ashwin</td>
+                    <td rowspan="2">30000</td>
+                </tr>
+                <tr>
+                    <td>2003</td>   
+                    <td>Priyamdip</td>
+                </tr>
+        </tbody>
+        <tfoot>
+                
+                <tr>
+                    <th colspan="2">Grand Total</th>
+                    <td>50000</td>
+                </tr>
+            </tfoot>
     </table>
     <h2>Demonstrating html table with rowspan</h2>
     <table border="1" cellpadding="10" cellspacing="0">
