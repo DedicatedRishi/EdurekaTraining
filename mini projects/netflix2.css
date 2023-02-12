@@ -1,0 +1,28 @@
+.containe{
+    position: relative;
+    background:no-repeat center/100%   url("./images/backgroundimage2.jpg" ) ;
+    opacity: 100%;
+    filter: brightness(50%);
+    height: 560px;
+    width: 100%;
+    background-color: black;
+}
+#language{
+    /* background-color: green; */  
+    width: 100px;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: -520px;
+}
+#nname{
+    color: white;
+    background: transparent;
+}
+.sign{
+    margin-top: -523px;
+    margin-left: 92%;
+    position:absolute;
+}
+.text{
+    margin-top: -500px;
+}

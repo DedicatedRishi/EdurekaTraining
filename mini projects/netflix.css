@@ -1,0 +1,92 @@
+.containe{
+    position: relative;
+    background:no-repeat center/100%   url("./images/backgroundimage2.jpg" ) ;
+    opacity: 100%;
+    filter: brightness(50%);
+    height: 560px;
+    width: 100%;
+    background-color: black;
+}
+#language{
+    /* background-color: green; */  
+    width: 100px;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: -520px;
+}
+#nname{
+    color: rgb(253, 251, 251);
+    background: transparent;
+}
+.sign{
+    margin-top: -523px;
+    margin-left: 92%;
+    position:absolute;
+}
+h1{
+    padding-left:31%;
+    padding-top: 160px;
+    text-align: center;
+    /* background-color:green; */
+    display: inline-block;
+    color: rgb(9, 9, 9);
+    font-weight: 500;
+    
+    /* background-color: red; */
+}
+.text{
+    background-color: green;
+    display: absolute;
+    margin-top:-550px;
+}
+h3{ 
+    /* visibility: ; */
+    /* background-color:; */
+    margin-left:37%;
+    font-weight: bold;
+    padding-top: -800px;
+    /* text-align: center; */
+    display: inline;
+    border-collapse: collapse;
+    /* color: white; */
+    
+    /* background-color: red; */
+}
+h4{ 
+    /* visibility: ; */
+    /* background-color:red; */
+    margin-left:30%;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-top: -750px;
+    /* text-align: center; */
+    /* display: inline; */
+    border-collapse: collapse;
+    /* color: white; */
+    
+    /* background-color: red; */
+}
+input{
+    position: relative;
+}
+.template{
+    position: relative;
+    margin-top: -9px;
+    background-color:#000;
+    height: 500px;
+}
+.card1{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#vdiv{
+    left:50%;
+    top:10%;
+    
+}
